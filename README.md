@@ -13,7 +13,7 @@ A different version built with Matlab : [Matlab MLP neural network](https://gith
 - Fully connected
 
 
-### Use the library
+## Use the library
 
 * **Initialize** Neural Network
 
