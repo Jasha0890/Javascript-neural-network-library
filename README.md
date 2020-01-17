@@ -104,12 +104,12 @@ this.weights_HtoOut.add(weight_HtoOut_deltas);
 this.bias_output.add(gradients);
 
 // Calculate hidden gradient
-    let hidden_gradient = Matrix.map(hidden, delta_sigmoid);
-    hidden_gradient.multiply(hidden_errors);
-    hidden_gradient.multiply(this.learning_rate);
+let hidden_gradient = Matrix.map(hidden, delta_sigmoid);
+hidden_gradient.multiply(hidden_errors);
+hidden_gradient.multiply(this.learning_rate);
 
 // Modifiying the bias adding the deltas value (hidden gradient)
-    this.bias_hidden.add(hidden_gradient);
+this.bias_hidden.add(hidden_gradient);
 
 ```
 
