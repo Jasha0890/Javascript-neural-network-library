@@ -4,6 +4,10 @@ Neural network javascript library to help build a multi layer perceptron neural 
 
 A different version built with Matlab : [Matlab MLP neural network](https://github.com/Jasha0890/Matlab-neural-network/blob/master/MLP.m).
 
+## Documentation
+
+Learn more about Multilayer Perceptron neural networks [MLP](https://machinelearningmastery.com/neural-networks-crash-course/).
+
 ## Features
 
 - Neural Network with variable amounts of inputs, hidden nodes and outputs
